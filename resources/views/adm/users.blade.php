@@ -1,7 +1,7 @@
 @extends('layouts.adm')
 
 @section('title', 'User list')
-
+{{--asdasd  --}}
 @section('content')
     <div class="main-panel">
         <div class="content-wrapper">
