@@ -49,7 +49,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,20]"
 
-                             style="z-index: 5;  white-space: normal; text-transform: none;">RentStore</div>
+                             style="z-index: 5;  white-space: normal; text-transform: none;">AlmaRent</div>
                         <div class="tp-caption tp-resizeme textRes"
                              data-x="['left','left','center','center']"
                              data-hoffset="['0']"
@@ -208,7 +208,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="sec-title">Product Categories</h2>
+                    <h2 class="sec-title">Car Categories</h2>
                     <p class="sec-desc">
                         Popular categories
                     </p>
@@ -217,22 +217,22 @@
             <div class="row">
                 <div class="col-lg-2 col-md-4">
                     <a href="{{route('products.category', $cat=1)}}" class="single-cate">
-                        <i class="flaticon-drone"></i>
+{{--                        <i class="flaticon-drone"></i>--}}Economy
                     </a>
                 </div>
                 <div class="col-lg-2 col-md-4">
                     <a href="{{route('products.category', $cat=7)}}" class="single-cate">
-                        <i class="flaticon-console"></i>
+{{--                        <i class="flaticon-console"></i>--}}Comfort
                     </a>
                 </div>
                 <div class="col-lg-2 col-md-4">
                     <a href="{{route('products.category', $cat=4)}}" class="single-cate">
-                        <i class="flaticon-photo-camera"></i>
+{{--                        <i class="flaticon-photo-camera"></i>--}}Business
                     </a>
                 </div>
                 <div class="col-lg-2 col-md-4">
                     <a href="{{route('products.category', $cat=2)}}" class="single-cate">
-                        <i class="flaticon-pc"></i>
+{{--                        <i class="flaticon-pc"></i>--}}VIP
                     </a>
                 </div>
             </div>

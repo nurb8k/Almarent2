@@ -39,7 +39,7 @@
                         <h3>{{$product->name}}</h3>
                         <div class="product-price clearfix">
                                 <span class="price">
-                                    <span><span class="woocommerce-Price-currencySymbol">$</span>{{$product->price}}</span>
+                                    <span><span class="woocommerce-Price-currencySymbol">₸</span>{{$product->price}}</span>
                                 </span>
                         </div>
 

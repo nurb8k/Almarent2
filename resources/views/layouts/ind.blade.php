@@ -34,7 +34,7 @@
             <div class="col-lg-2 col-md-2">
                 <div class="logo">
                     <a href="{{url('/')}}">
-                        <h5>RentStore</h5>
+                        <h5>AlmaRent</h5>
                     </a>
                 </div>
             </div>
